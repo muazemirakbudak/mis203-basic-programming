@@ -38,3 +38,13 @@ If no students were entered, print: No students entered.
 
 ### Why does the order of the rules matter?
 The order of the rules matters because Python executes `if/elif` statements sequentially and stops at the first matching condition. If the Student rule came before the Child rule, a 10-year-old student would trigger the Student rule (30% discount) instead of receiving the higher priority Child rule (40% discount).
+
+
+
+## Week 04
+
+**AI Tool Used:** Gemini
+
+**Prompt Used:** "Create a Python script named kahraman_olusturucu.py that generates a fantasy RPG character using at least two built-in libraries, applies random stats, classes, and titles, and includes visual stat bars."
+
+**What did you change?** I added ANSI color codes for a retro terminal aesthetic, used math.floor and math.ceil for precise stat bar calculations and power scaling, and implemented a clean input check with a fallback value in case the user leaves the name field blank.
