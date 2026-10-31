@@ -2,7 +2,7 @@ total_score = 0
 student_count = 0
 
 while True:
-    name = input("Enter student name (or q to quit): ")
+    name = input("Enter a student  name (or q to quit): ")
     
     if name.lower() == 'q':
         break
